@@ -1,0 +1,2 @@
+Widening Casting (otomatis) = byte > short > int > long > float > double
+Narrowing Casting (Manual) = double > float > long > int > char > short > byte
