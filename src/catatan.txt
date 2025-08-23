@@ -40,3 +40,8 @@ for each mengakses seluruh data array (value) secara otomatis dibandingkan count
 contoh perbandingan penggunaan for each dengan forloop terhadap array:
 for(var i : array) //bagian for each
 for(var i = 0; i < array.length; i++) //bagian forloop
+
+kalau menggunakan static void awalan katanya harus kecil seperti:
+static void sayHello(){
+
+}

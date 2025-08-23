@@ -1,7 +1,7 @@
 public class ForEach {
   public static void main(String[] args) {
 
-    String [] array = {
+    String [] name = {
             "Yazid", "Furina", "Hu Tao"
     };
 
@@ -11,8 +11,8 @@ public class ForEach {
     }
     */
     System.out.println("For Each");
-    for(var name: array){
-      System.out.println(name);
+    for(var array: name){
+      System.out.println(array);
     }
 
   }

@@ -30,7 +30,7 @@ public class SwitchStatement {
     }
      */
 
-    /*
+    /* mengubah output printf dengan menggunakan value sebagai gantinya
     String ucapan;
     switch (nilai){
       case "A" -> ucapan = "nilaimu sempurna";
@@ -43,6 +43,7 @@ public class SwitchStatement {
     System.out.println(ucapan);
      */
 
+    //yield meringkaskan sebuah printf menjadi terdefinisikan menjadi point utama
     String ucapan = switch (nilai) {
       case "A":
         yield "nilaimu sempurna";
